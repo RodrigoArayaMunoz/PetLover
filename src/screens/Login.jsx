@@ -1,11 +1,12 @@
-import React from "react";
-import { View, Text, StyleSheet, Image, KeyboardAvoidingView, ScrollView, Platform, Dimensions, TextInput, TouchhableOpacity, Pressable } from "react-native";
+import React, { useState } from "react";
+import { View, Text, StyleSheet, Image, KeyboardAvoidingView, ScrollView, Platform, Dimensions, TextInput, TouchhableOpacity, Pressable, Switch } from "react-native";
 import { Ionicons} from '@expo/vector-icons';
 
 
 const { width, height } =  (Dimensions.get('window'));
 export default function Login() {
 
+      const [persisSession, setPersisSession] = useState(false);
       const onsubmit  = () => {
         console.log("Login");
         
@@ -54,6 +55,14 @@ export default function Login() {
             <Pressable style={styles.button} onPress={onsubmit}>
             <Text style={styles.buttonText}>Entrar</Text>
         </Pressable>
+        <View style = {styles.rememberMe}>
+            <Text style={{color: '#FFFFF', fontWeight:"bold"}}>¿Mantener sesión iniciada?</Text>
+            <Switch
+            onValueChange={() => setPersisSession(!persisSession)}
+            value={persisSession}
+            trackColor={{ false: "#767577", true: "#81b0ff" }}
+            />
+          </View>
 
     </ScrollView>
 
@@ -90,7 +99,8 @@ const styles = StyleSheet.create({
     },
 
     inputContainer:{
-        width: width * 0.8,    
+        width: width * 0.8,
+        marginBottom: 30,
     },
 
       inputField: {
@@ -114,7 +124,8 @@ const styles = StyleSheet.create({
     width: '50%',
     paddingVertical: 10,
     alignItems: 'center',
-    marginTop: 10,
+    
+    marginBottom: 20
   },
 
     buttonText: {
@@ -125,5 +136,12 @@ const styles = StyleSheet.create({
     input: {
     flex: 1,
     color: '#8B2E21',
+  },
+
+    rememberMe: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    
   },
 });
