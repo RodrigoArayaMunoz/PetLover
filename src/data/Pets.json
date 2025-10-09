@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "name": "Flavio",
+        "age": "Joven (1-3 años)",
+        "size": "Mediano (12-25 kg)",
+        "gender": "Macho",
+        "breed": "Mestizo",
+        "location": "La Serena, Coquimbo",
+        "history": "Flavio fue rescatado en el sector Rural de Coquimbito, comuna de La Serena. nació en una casa microbasural junto a 8 hermanos, de los cuales solo el queda en búsqueda de hogar. En un mestizo de galgo de tamaño mediano, sociable con personas, perros y gatos. De carácter tímido y afable, una vez esta en confianza es un joven dulce y agradecido.",
+        "characteristics": ["Timido", "Regalon", "Cariñoso", "Sociable"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760035398423-%2520WhatsApp%2520Image%25202025-10-07%2520at%25204.50.07%2520PM.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760035398423-%2520WhatsApp%2520Image%25202025-10-07%2520at%25204.50.07%2520PM.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760035399666-%2520WhatsApp%2520Image%25202025-09-15%2520at%25204.52.43%2520PM.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tomi",
+        "age": "Joven (1-3 años)",
+        "size": "Pequeño (5- 12 kg)",
+        "gender": "Macho",
+        "breed": "Mestizo",
+        "location": "Santiago, Region Metropolitana",
+        "history": "Tomy en adopción Macho, mediano, pesa nueve kilos, se entrega castrado y es muy juguetón y cariñoso se lleva con otros perros y gatos.",
+        "characteristics": ["Amistoso", "Regalon", "Cariñoso"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760012840592-%252014795e84-7b92-41a0-b4cd-6a0870143307.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760012840592-%252014795e84-7b92-41a0-b4cd-6a0870143307.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1760012840658-%2520d2e0252e-adbe-4266-8a8a-d2a16828724f.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Oreo",
+        "age": "Joven (1-3 años)",
+        "size": "Pequeño (5- 12 kg)",
+        "gender": "Macho",
+        "breed": "Mestizo",
+        "location": "Santiago, Region Metropolitana",
+        "history": "Oreo es un perro sociable, no le gustan los gatos.",
+        "characteristics": ["Amistoso", "Regalon", "Cariñoso", "Jugueton"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759969932524-%2520IMG_9189.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759969932524-%2520IMG_9189.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759969932590-%2520IMG_9181.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Jazmin",
+        "age": "Joven (1-3 años)",
+        "size": "Grande (25 kg o más)",
+        "gender": "Hembra",
+        "breed": "Mestizo",
+        "location": "Puerto Varas, Los Lagos",
+        "history": "",
+        "characteristics": ["Amistosa", "Cariñosa", "Sociable", "Curiosa", "Energica", "Juguetona"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759891459418-%2520IMG-20250929-WA0006.jpg&w=3840&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+    },
+    {
+        "id": 5,
+        "name": "Luna",
+        "age": "Joven (1-3 años)",
+        "size": "Mediano (12-25 kg)",
+        "gender": "Hembra",
+        "breed": "Mestizo",
+        "location": "Puerto Varas, Los Lagos",
+        "history": "",
+        "characteristics": ["Regalona", "Sociable", "Cariñosa", "Juguetona"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759890123952-%2520IMG-20250929-WA0027.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759890123952-%2520IMG-20250929-WA0027.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759890123929-%2520Screenshot_20251007_232054_Instagram.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Ringo",
+        "age": "Cachorro (0-1 año)",
+        "size": "Mini (0-3 kg)",
+        "gender": "Macho",
+        "breed": "American Short Hair",
+        "location": "San Miguel, Region Metropolitana",
+        "history": "Ringo es hijo de Mamita feral y fue capturado con jaula trampa. Pasó por un proceso de socialización con sus hermanos. Durante este proceso aprendió a confiar y a jugar. Sus hermanos ya encontraron familia y solo falta él. Ringo busca una familia comprometida con la tenencia indoor y que pueda mantener alimentación exclusiva de proteína de salmón ya que otras proteínas le generan problemas intestinales. Ya tiene 5 meses y está listo para tener una familia",
+        "characteristics": ["Amistoso", "Jugueton", "Curioso", "Sociable"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759670709331-%2520IMG_20250828_225116.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759670709331-%2520IMG_20250828_225116.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759670709433-%2520IMG_20251002_220155.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Cabezón",
+        "age": "Adulto (3-10 años)",
+        "size": "Pequeño (3-5 kg)",
+        "gender": "Macho",
+        "breed": "Mestizo",
+        "location": "Santiago, Region Metropolitana",
+        "history": "Cabezón es un gatito entre 3 a 4 años que está listo para conquistar tu corazón ( y tu sofá). Su historia no es la más feliz: tuvo dueña, quien se fue para el Sur y lo dejó a la buena de Dios, triste y en malas condiciones. En su camino apareció un humano de buen corazón que nos pidió ayuda para ponerlo al día en temas veterinarios y es así como nos hacemos cargo del gatito Cabezón, lo llevamos a esterilizar y vacunar. Cabezón está listo para una nueva aventura: encontrar una familia que entienda que un gatito adulto también puede adaptar a una familia. Es muy educado, cariñoso y tranquilo. Si quieres adoptar mándanos un mensaje para hacer llegar el formulario de adopción.",
+        "characteristics": ["Amistoso", "Regalón", "Cariñoso", "Tranquilo"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759017834532-%2520Imagen%2520de%2520WhatsApp%25202025-09-16%2520a%2520las%252006.12.20_cc44ef85.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759017834532-%2520Imagen%2520de%2520WhatsApp%25202025-09-16%2520a%2520las%252006.12.20_cc44ef85.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759017833714-%2520Imagen%2520de%2520WhatsApp%25202025-09-16%2520a%2520las%252006.12.20_22bbe7c6.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Ema",
+        "age": "Cachorro (0-1 año)",
+        "size": "Pequeño (3-5 kg)",
+        "gender": "Hembra",
+        "breed": "Mestizo",
+        "location": "Pedro Aguirre Cerda, Region Metropolitana",
+        "history": "Ema busca hogar! Tiene solo 5 meses 🙌🏻",
+        "characteristics": ["Amistosa", "Regalona", "Juguetona", "Cariñosa", "Sociable"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759863381431-%252023176fc3-a719-4b80-9d8b-5da4c9839e19.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759863381431-%252023176fc3-a719-4b80-9d8b-5da4c9839e19.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1759863381495-%2520279156ae-367e-4e82-afea-6829afea0117.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Gatina",
+        "age": "Cachorro (0-1 año)",
+        "size": "Pequeño (3-5 kg)",
+        "gender": "Hembra",
+        "breed": "Mestizo",
+        "location": "Recoleta, Region Metropolitana",
+        "history": "Rescatada de la comuna de Quilicura en muy mal estado, se encuentra en hogar temporal hasta que encuentre hogar",
+        "characteristics": ["Regalona", "Cariñosa", "Amistosa","Sociable"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1757299025090-%2520GzSc1zJWIAASSJ8.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1757299025090-%2520GzSc1zJWIAASSJ8.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1757299025277-%2520GzSc1ytWMAAbcbS.jpeg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Diego",
+        "age": "Joven (1-3 años)",
+        "size": "Mediano (5-7 kg)",
+        "gender": "Macho",
+        "breed": "Mestizo",
+        "location": "La Reina, Region Metropolitana",
+        "history": "Soy un jovencito con aprox 1 año de vida. Ya estoy vacunado, esterilizado y con chip. Me rescataron hace poco, pero me conocen hace mucho. Estuve siempre en un sede vecinal. No hay recuerdos de si nací ahí o me fueron a botar muy bebé. Me esterilizaron y seguí en ese lugar, hasta que cambió de directiva y comenzó el tormento. Todos los días me molestaban, botaban mi comida, hasta que rompieron las casitas donde nos resguardábamos mis amigos y yo. Soy un gordito inflado, pero es puro pelo jiji. Tengo mis exámenes negativos.",
+        "characteristics": ["Amistosa", "Juguetona"],
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1754411045418-%2520photo_4929568007433334457_y.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+        "totalImages":[
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1754411045418-%2520photo_4929568007433334457_y.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S",
+            "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1754411045374-%2520photo_4929568007433334453_y.jpg&w=1920&q=50&dpl=dpl_5rpEqior63VsD7JQaaFjE6qZga5S"
+        ]
+    }
+   
+]
