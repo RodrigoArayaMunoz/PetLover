@@ -1,31 +1,55 @@
-import react from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native";
-
+import React from "react";
+import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
+import Ionicons from '@expo/vector-icons/Ionicons';
 const HeaderWelcome = () => {
   return (
-   <> <View style= {styles.WelcomeContainer}>
-        <Text style={styles.WelcomeText}> BIENVENIDO</Text>
-        <Text style={styles.NameText}>RODRIGO ARAYA </Text>
+   <View style={styles.WelcomeContainer}>
+    <View style = {styles.headerRow}>
+      <Text style={styles.WelcomeText}> BIENVENIDO</Text>
+    
+      <Pressable style={styles.circleButton}>
+        <Ionicons name="person-circle-outline" size={40} color="red" />
+      </Pressable>
     </View>
-    </>
+        <Text style={styles.NameText}>RODRIGO ARAYA </Text>
+      </View>
+    
+    
     );
 };
 
 const styles = StyleSheet.create({
       WelcomeContainer: {
-    flex: 1,
-    alignItems: 'center',
     backgroundColor: '#fff',
-    marginTop: 50,
+    paddingTop: 50,
+    paddingHorizontal: 1,
+    marginBottom: 10,
   },
+    headerRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    },
     WelcomeText: {
-    fontSize: 40,
+    fontSize: 35,
     fontWeight: 'bold',
+    width: '80%',
     },
     NameText: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#FF5733',
+    marginTop: 1,
+    marginLeft: 10
+
+    },
+        circleButton: {
+        height: 40,
+        width: 40,
+        borderRadius: 20,
+        backgroundColor: '#eee',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
 }); 
 

@@ -1,7 +1,9 @@
 import React from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import petData from "../../data/Pets.json"
 import HeaderWelcome from "../../components/HeaderWelcome";
+import FlatPetCard from "../pets/FlatPetCard";
+
 
 const Home = () => {
   return (
@@ -11,10 +13,14 @@ const Home = () => {
     <View style={styles.ListPetsContainer}>
           <FlatList
               data={petData}
-              renderItem={({ item }) => (
-                  <><Text>{item.name}</Text><Text>{item.age}</Text><Text>{item.gender}</Text></>
-              )} />
+              keyExtractor={(item) => item.id.toString()}
+              renderItem={({ item }) => <FlatPetCard pet={item} />}
+              showsVerticalScrollIndicator={false}
+              
+              />
 
+
+  
       </View></>
     
 
@@ -22,16 +28,13 @@ const Home = () => {
     
     );
 };
-
-
 const styles = StyleSheet.create({
 
     ListPetsContainer: {
-    flex: 3,
-    alignItems: 'center',
+    flex: 1,
     backgroundColor: '#fff',
-    marginTop: 10,
     width: '100%',
+    marginTop: 20,
     },
 }); 
 
