@@ -20,7 +20,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
       WelcomeContainer: {
-    backgroundColor: '#af2424ff',
+    backgroundColor: '#851515e8',
     width: '100%',
     height: 120,
     borderBottomEndRadius: 10,

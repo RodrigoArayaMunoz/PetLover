@@ -14,10 +14,10 @@ const StackNavigator = () => {
             }
             }
             >
-            <Stack.Screen name="Home" component={Home}/>
-            <Stack.Screen name="Nuevo" component={NewPetApplication}/>
-            <Stack.Screen name="Listado" component={ListsApplication}/>
-            <Stack.Screen name="Refugios" component={PetsLocation}/>
+             <Stack.Screen name="Home" component={Home}/>
+            {/* <Stack.Screen name="Nuevo" component={NewPetApplication}/> */}
+{/*             <Stack.Screen name="Listado" component={ListsApplication}/>
+            <Stack.Screen name="Refugios" component={PetsLocation}/>  */}
         </Stack.Navigator>
     )
 }

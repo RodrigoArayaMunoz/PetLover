@@ -3,13 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import Login from './src/screens/Login';
 import Home from './src/screens/adoption/Home';
 import { NavigationContainer } from '@react-navigation/native';
-import StackNavigator from './src/navigation/StackNavigator';
 import BottomTabsNavigator from './src/navigation/BottomTabsNavigator';
 export default function App() {
   return (
 
+
     <NavigationContainer>
- <StackNavigator/>
+      <BottomTabsNavigator/>
    
       {/* <Login></Login> */}
       {/* <Home></Home> */}
