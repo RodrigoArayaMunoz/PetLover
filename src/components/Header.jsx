@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import Ionicons from '@expo/vector-icons/Ionicons';
-const HeaderWelcome = () => {
+const Header = () => {
   return (
    <View style={styles.WelcomeContainer}>
     <View style = {styles.headerRow}>
@@ -20,25 +20,28 @@ const HeaderWelcome = () => {
 
 const styles = StyleSheet.create({
       WelcomeContainer: {
-    backgroundColor: '#fff',
-    paddingTop: 50,
-    paddingHorizontal: 1,
-    marginBottom: 10,
+    backgroundColor: '#af2424ff',
+    width: '100%',
+    height: 120,
+    borderBottomEndRadius: 10,
+    borderBottomStartRadius:10,
   },
     headerRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    marginTop: 40,
     },
     WelcomeText: {
     fontSize: 35,
     fontWeight: 'bold',
     width: '80%',
+    color: '#ffffffff',
     },
     NameText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#FF5733',
+    color: '#ffffffff',
     marginTop: 1,
     marginLeft: 10
 
@@ -53,4 +56,4 @@ const styles = StyleSheet.create({
     },
 }); 
 
-export default HeaderWelcome;
+export default Header;

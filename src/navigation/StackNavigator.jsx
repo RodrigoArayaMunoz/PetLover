@@ -1,15 +1,23 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { NewPetApplication, PetsLocation, ListsApplication } from "../screens";
+import { NewPetApplication, PetsLocation, ListsApplication, Home } from "../screens";
+import Header from "../components/Header";
 
 const Stack = createNativeStackNavigator();
 
 const StackNavigator = () => {
     return (
-        <Stack.Navigator>
-            <Stack.Screen name="Nuevo" component={NewPetApplication} options={{headerShown: false}}/>
-            <Stack.Screen name="Mis Solicitudes" component={ListsApplication} options={{headerShown: false}}/>
-            <Stack.Screen name="Refugios" component={PetsLocation} options={{headerShown: false}}/>
+        <Stack.Navigator
+            initialRouteName="Home"
+            screenOptions={{
+                header: () => <Header/>
+            }
+            }
+            >
+            <Stack.Screen name="Home" component={Home}/>
+            <Stack.Screen name="Nuevo" component={NewPetApplication}/>
+            <Stack.Screen name="Listado" component={ListsApplication}/>
+            <Stack.Screen name="Refugios" component={PetsLocation}/>
         </Stack.Navigator>
     )
 }

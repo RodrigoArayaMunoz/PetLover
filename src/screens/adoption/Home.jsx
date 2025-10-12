@@ -1,14 +1,14 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import petData from "../../data/Pets.json"
-import HeaderWelcome from "../../components/HeaderWelcome";
+import Header from "../../components/Header";
 import FlatPetCard from "../pets/FlatPetCard";
 
 
 const Home = () => {
   return (
 
-    <><HeaderWelcome />
+    <>
     
     <View style={styles.ListPetsContainer}>
           <FlatList
