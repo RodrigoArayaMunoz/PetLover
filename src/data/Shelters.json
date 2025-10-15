@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Patitas de Noa y Tiara",
+        "location": "Santiago, Region Metropolitana",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1737499657765-%2520patitas.jpeg&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    },
+    {
+        "id": 2,
+        "name": "Fundación PROANI",
+        "location": "San Miguel, Region Metropolitana",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1745597671853-%2520proani.jpeg&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    },
+    {
+        "id": 3,
+        "name": "Fundacion Peluditos OK",
+        "location": "Machali, Region de O'Higgins",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1728956721473-%2520peluditos.jpeg&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    },
+    {
+        "id": 4,
+        "name": "Refugio Dhermes",
+        "location": "Viña del Mar, Region de Valparaíso",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1727440561351-%2520dhermes.png&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    },
+    {
+        "id": 5,
+        "name": "Fundacion ARACOL",
+        "location": "Colbún, Region del Maule",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1753113206903-%2520WhatsApp%2520Image%25202025-07-21%2520at%252011.49.55.jpeg&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    },
+    {
+        "id": 6,
+        "name": "SOS Callejeros",
+        "location": "Villa Alemana, Region de Valparaíso",
+        "mainImage": "https://www.petmatch.cl/_next/image?url=https%3A%2F%2Fhelptik.s3.amazonaws.com%2F1729711307435-%2520soscallejeros.jpeg&w=64&q=75&dpl=dpl_CA8YNaWWSa72Rs2XpkX4X7nSzhEX"
+    }
+]

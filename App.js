@@ -4,10 +4,14 @@ import Login from './src/screens/Login';
 import Home from './src/screens/adoption/Home';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTabsNavigator from './src/navigation/BottomTabsNavigator';
+import { Provider } from 'react-redux';
+import { PetLoverStore } from './src/store';
+
 export default function App() {
   return (
 
-
+<Provider store={PetLoverStore}>
+  
     <NavigationContainer>
       <BottomTabsNavigator/>
    
@@ -17,7 +21,7 @@ export default function App() {
     
     <StatusBar style="auto" />
       </NavigationContainer>
-
+</Provider>
 
   );
 }

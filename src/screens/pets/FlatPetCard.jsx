@@ -29,6 +29,7 @@ const FlatPetCard = ({pet}) => {
 
                  <Pressable style = {styles.circleButton}>
                     <FontAwesome name="whatsapp" size={24} color="green" />
+                    
                 </Pressable>
 
             </View>

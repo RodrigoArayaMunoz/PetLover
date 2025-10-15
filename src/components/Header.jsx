@@ -6,10 +6,6 @@ const Header = () => {
    <View style={styles.WelcomeContainer}>
     <View style = {styles.headerRow}>
       <Text style={styles.WelcomeText}> BIENVENIDO</Text>
-    
-      <Pressable style={styles.circleButton}>
-        <Ionicons name="person-circle-outline" size={40} color="red" />
-      </Pressable>
     </View>
         <Text style={styles.NameText}>RODRIGO ARAYA </Text>
       </View>

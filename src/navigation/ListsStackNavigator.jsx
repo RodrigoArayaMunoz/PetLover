@@ -9,10 +9,6 @@ const ListsStackNavigator = () => {
     return (
         <Stack.Navigator
             initialRouteName="Listado"
-            screenOptions={{
-                header: () => <Header/>
-            }
-            }
             >
             <Stack.Screen name="Listado" component={ListsApplication}/>
         </Stack.Navigator>
