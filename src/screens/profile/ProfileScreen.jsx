@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setProfilePicture } from '../../store/slices/userSlice';
 import { usePutProfilePictureMutation } from '../../store/services/profile/profileApi';
+import { clearSession } from '../../sqlite';
+import { clearUser } from '../../store/slices/userSlice';
 
 const ProfileScreen = () => {
 
@@ -33,6 +35,16 @@ const ProfileScreen = () => {
         }
     };
 
+    const handleClearSession = async () => {
+        try{
+            await clearSession();
+            
+        } catch (error) {
+            console.log("Error clearing session:", error);
+        }
+        dispatch(clearUser())
+    };
+
     return (
         <View style={styles.profileContainer}>
             <View style={styles.imageProfileContainer}>
@@ -48,6 +60,12 @@ const ProfileScreen = () => {
                     </Pressable>
             </View>
             <Text style={styles.profileData}>Email: {user} </Text>
+
+            <View style = {styles.CloseSessionButton}>
+                <Pressable onPress={handleClearSession}>
+                    <Text style={{color: '#fff'}}>Cerrar sesión</Text>
+                </Pressable>
+            </View>
         </View>
     )
 }
@@ -85,5 +103,14 @@ const styles = StyleSheet.create({
         width: 128,
         height: 128,
         borderRadius: 128
+    },
+    CloseSessionButton: {
+        marginTop: 32,
+        paddingVertical: 8,
+        borderColor: '#851515e8',
+        width: '100%',
+        alignItems: 'center',
+        backgroundColor: '#851515e8',
+        borderRadius: 8,
     },
 });

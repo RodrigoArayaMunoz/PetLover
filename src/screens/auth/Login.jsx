@@ -29,7 +29,7 @@ const Login = () => {
           const { localId, email } = result.data;
 
           if (persisSession) {
-            await saveSession({ localId, email });
+            await saveSession(localId, email);
           } else {
             await clearSession(localId);
           }
