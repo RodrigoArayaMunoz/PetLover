@@ -20,7 +20,7 @@ export default function MainNavigator() {
     useEffect(() => {
         const bootstrap = async () => {
             await initSessionsTable();
-            const session = await getSession(localId);
+            const session = await getSession();
             if (session) {
           dispatch(setUserEmail(session.email));
           dispatch(setLocalId(session.localId));
@@ -47,7 +47,7 @@ export default function MainNavigator() {
 
     return (
         <NavigationContainer>
-            {user ? <BottomTabsNavigator/> : <AuthStackNavigator/>}
+            {localId ? <BottomTabsNavigator/> : <AuthStackNavigator/>}
         </NavigationContainer>
     )
 }

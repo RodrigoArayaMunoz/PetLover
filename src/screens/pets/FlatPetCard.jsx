@@ -1,8 +1,16 @@
 import react from "react";
 import { View, StyleSheet, Image, Text, Pressable } from "react-native";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { useNavigation } from "@react-navigation/native";
 
 const FlatPetCard = ({pet}) => {
+
+    const navigation = useNavigation();
+
+    const goToPetDetails = () => {
+        navigation.navigate("PetScreen", { pet });
+    }
+
     return(
         <View style={styles.container}>
             
@@ -23,7 +31,7 @@ const FlatPetCard = ({pet}) => {
          
 
             <View style={styles.AddPetContainer}>
-                <Pressable style = {styles.circleButton}>
+                <Pressable onPress={goToPetDetails} style={styles.circleButton}>
                     <FontAwesome name="heart" size={24} color="red" />
                 </Pressable>
 

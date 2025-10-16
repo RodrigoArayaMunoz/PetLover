@@ -9,7 +9,6 @@ export const initDb = async () => {
 }
 
 export const initSessionsTable = async ()=>{
-    console.log("Iniciando tablas")
     await initDb()
     await db.execAsync(`
         CREATE TABLE IF NOT EXISTS sessions (
@@ -22,14 +21,13 @@ export const initSessionsTable = async ()=>{
 
 export const saveSession = async (localId, email) => {
     await initDb();
-    await db.runAsync('DELETE FROM sessions;');
+    await db.runAsync('DELETE FROM sessions');
     await db.runAsync('INSERT INTO sessions (localId, email) VALUES (?, ?);', [localId, email]);
 }
 
 export const getSession = async () => {
     await initDb();
     const result = await db.getAllAsync('SELECT * FROM sessions LIMIT 1;');
-    console.log("Obteniendo datos de DB",result)
     return result.length > 0 ? result[0] : null;
 };
 

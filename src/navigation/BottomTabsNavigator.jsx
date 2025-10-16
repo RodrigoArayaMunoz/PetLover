@@ -3,6 +3,7 @@ import StackNavigator from "./StackNavigator";
 import ListsStackNavigator from "./ListsStackNavigator";
 import PetLocationStackNavigator from "./PetLocationStackNavigator";
 import ProfileStackNavigator from "./ProfileStackNavigator";
+import PetsNavigator from "./PetsNavigator";
 import { StyleSheet } from "react-native";
 import Ionicons from '@expo/vector-icons/Ionicons';
 
@@ -19,14 +20,9 @@ const BottomTabsNavigator = () =>{
 
         >
 
-        <Tab.Screen name="Inicio" component={StackNavigator}
+        <Tab.Screen name="Inicio" component={PetsNavigator}
         options={{
             tabBarIcon:() => <Ionicons name="home-outline" size={20} color="#fff"/>
-        }}
-        />
-        <Tab.Screen name="Mis Solicitudes" component={ListsStackNavigator}
-                options={{
-            tabBarIcon:() => <Ionicons name="list-outline" size={20} color="#fff"/>
         }}
         />
         <Tab.Screen name="Refugios" component={PetLocationStackNavigator}
