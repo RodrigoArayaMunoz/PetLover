@@ -21,7 +21,7 @@ Antes de instalar y ejecutar la app, se debe tener instalado los siguientes prog
 
 - [Node.js](https://nodejs.org/) (versión 20 o superior recomendada)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/) (global)
-- [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/) para poder acceder al repositorio, clonar el proyecto y emularlo desde android studio.
 
 ---
 
