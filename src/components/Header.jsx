@@ -1,13 +1,17 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { useSelector } from "react-redux";
+
 const Header = () => {
+
+  const name = useSelector(state => state.userReducer.name);
   return (
    <View style={styles.WelcomeContainer}>
     <View style = {styles.headerRow}>
       <Text style={styles.WelcomeText}> BIENVENIDO</Text>
     </View>
-        <Text style={styles.NameText}>RODRIGO ARAYA </Text>
+        <Text style={styles.NameText}>{name} </Text>
       </View>
     
     

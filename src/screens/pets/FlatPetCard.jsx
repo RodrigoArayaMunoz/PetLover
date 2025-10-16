@@ -6,13 +6,13 @@ const FlatPetCard = ({pet}) => {
     return(
         <View style={styles.container}>
             
-            {/* Imagen de Mascota */}
+          
             <Image
                 source={{uri: pet.mainImage}}
                 style = {styles.petImage}
             />
            
-            {/* Detalles de Mascota */}
+           
 
             <View style = {styles.detailsContainer}>
                 <Text style={styles.PetName}>{pet.name}</Text>
@@ -20,7 +20,7 @@ const FlatPetCard = ({pet}) => {
                 <Text style= {styles.PetSize}>Tamaño: {pet.size} </Text>
             </View>
 
-            {/* Boton de Agregar Solicitud Adopcion */}
+         
 
             <View style={styles.AddPetContainer}>
                 <Pressable style = {styles.circleButton}>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, FlatList, Pressable } from "react-native";
 import FlatPetCard from "../pets/FlatPetCard";
-import { useGetPetsQuery } from "../../store/services/PetApi";
+import { useGetPetsQuery } from "../../store/services/pet/PetApi";
 import { FontAwesome5 } from '@expo/vector-icons';
 
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     width: '100%',
-    marginTop: 20,
+    marginTop: 70,
     },
 
       filterRowBreads: {
